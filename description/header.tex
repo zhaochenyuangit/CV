@@ -1,0 +1,20 @@
+\newcommand{\paint}[3]{
+    \begin{minipage}{#1}
+        \includegraphics[width=#1,height=#2]{#3}
+    \end{minipage} 
+}
+\newcommand{\myheader}{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}rr}
+  && \multirow{4}*{\paint{2.6cm}{3.2cm}{./ChenyuanZHAO.jpg}}\\
+  \specialrule{0em}{4pt}{4pt}
+  \textbf{\href{http://herechen.github.io}{\LARGE Chenyuan Zhao}} & (49) 15207929791$\,${\color{labelgrey}(Mobil)} &\\
+  Joseph-Seifried Str. 20$\,${\color{labelgrey}(Anschift)} & \href{mailto:zhao.chenyuanMunich@outlook.com}{zhao.chenyuanMunich@outlook.com}$\,${\color{labelgrey}(E-mail)} & \\
+  80995, München$\,${\color{labelgrey}(PLZ)} 
+  & %\href{http://www.zhangzc.net{zhangzc.net}$\,${\color{labelgrey}(个人主页)} & \\
+  \end{tabular*}\\\vspace{0.1in}
+%  \fancyfoot[L]{\footnotesize 最后更新: \today}
+%  \fancyfoot[R]{\footnotesize \url{http://example.com/resume-zh.pdf}}
+}
+
+\myheader
+
