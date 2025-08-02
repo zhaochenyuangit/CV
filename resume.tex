@@ -1,27 +1,34 @@
 %!TEX program = xelatex
-\documentclass{article}
+\documentclass[12pt,openany]{ctexart}      % paper size is in preamble.sty
+
+\setCJKmainfont{霞鹜文楷}
+% 设置粗体字体为霞鹜文楷 Bold
+\setCJKfamilyfont{boldsong}{霞鹜臻楷}
+\newcommand{\bold}[1]{\underline{\CJKfamily{boldsong}#1}}
+
+%\usepackage[utf8x]{inputenc}
+%\usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\graphicspath{ {./} }
-
-\documentclass[11pt]{article}
-
+\usepackage{enumitem}
+%\usepackage{geometry}
 \input{format.cls}
+\geometry{a4paper,left=2cm,right=1cm,top=2cm,bottom=2cm}
 
 \begin{document}
+
+\graphicspath{ {./} }
+
 % \begin{CJK*}{UTF8}{gbsn} % uncomment  for sharelatex.com
 
 \input{description/header}
-\input{description/education}
 \input{description/skills}
 \input{description/company}
-\input{description/awards}
+\input{description/education}
+%\input{description/awards}
 %\input{description/others}
 %\input{description/projects}
-\ \\
-\ \\
-\ \\
-München, 9.1.2020
-\\ \includegraphics{Signature.PNG}
+
+\includegraphics[height=1.5cm]{Signature.PNG}\quad{上海, 2025.08}
 % \end{CJK*}
 
 \end{document}

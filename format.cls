@@ -58,5 +58,5 @@
 
 \newcommand{\ressubsingleline}[3]{
 \begin{tabular*}{\textwidth-5mm}{ll@{\extracolsep{\fill}}r}
-    \textbf{#1} & \quad\textit{#2} & #3 \\
+    \textbf{#1} & \quad{#2} & #3 \\
 \end{tabular*}}
