@@ -1,25 +1,27 @@
 \resheading{项目履历}
  \begin{itemize}[leftmargin=*,label={}]
  \item \begin{tabular*}{\textwidth-5mm}{ll@{\extracolsep{\fill}}r}
-    \textbf{自研芯片迭代开发}& \quad{编译器领域PL} & 2023.06-至今 \\
-  \end{tabular*}
-  {\small
-    \begin{itemize}
-      \item{优化完善自研intrinsic编程模型，为设计、验证提供稳定API抽象层，节省验证人力投入1人月。}
-      \item{深入算子开发前线，提供架构memory相关编程优化建议；承担部分产品化工作。}
-      \item{Pocket3产品手板阶段，SoC带宽争抢严峻，芯片对外DDR访存量遭质疑；利用编译插桩技术，直接在产品板上统计得到对外load/store指令量化数据，解决争议。}
-      \item{芯片转阶段benchmark算子性能未达标；应用PGO、LTO技术，以较少投入大幅提升算子性能20\%，达标新一代芯片性能优化承诺，为项目阶段推进保驾护航。}
-    \end{itemize}
-  }
-  \item \begin{tabular*}{\textwidth-5mm}{ll@{\extracolsep{\fill}}r}
     \textbf{AI网络异构联合编译}& \quad{自研芯片后端接入负责人} & 2025.01-至今 \\
   \end{tabular*}
   {\small
     \begin{itemize}
-      \item{调查工业界主流AI编译框架MLIR与TVM。}
       \item{完成自研芯片后端接入异构编译框架，支持算子映射与指令自动生成。}
+      \item{协同业务需求方与芯片后端完成gridsample算子规格确认、优化加速与软硬件协同设计。}
+
     \end{itemize}
   }
+ \item \begin{tabular*}{\textwidth-5mm}{ll@{\extracolsep{\fill}}r}
+    \textbf{自研芯片迭代开发}& \quad{编译器领域PL} & 2023.06-至今 \\
+  \end{tabular*}
+  {\small
+    \begin{itemize}
+      \item{Pocket3产品手板阶段，SoC带宽争抢严峻，芯片对外DDR访存量遭质疑；利用编译插桩技术，直接在产品板上统计得到对外load/store指令量化数据，解决争议。}
+      \item{芯片转阶段benchmark算子性能未达标；应用PGO、LTO技术，以较少投入大幅提升算子性能20\%，达标新一代芯片性能优化承诺，为项目阶段推进保驾护航。}
+      \item{优化完善自研intrinsic编程模型，为设计、验证提供稳定API抽象层，节省验证人力投入1人月。}
+      \item{深入算子开发前线，提供架构memory相关编程优化建议；承担部分产品化工作。}
+    \end{itemize}
+  }
+  
   \item \begin{tabular*}{\textwidth-5mm}{ll@{\extracolsep{\fill}}r}
     \textbf{自研芯片功耗建模}& \quad{预研总负责人} & 2022.07-2024.02 \\
   \end{tabular*}
